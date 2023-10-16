@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/placeholder" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/selectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select image"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_design2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGrayscale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grayscale"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSepia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sepia"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_design2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnInvert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invert"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTangerine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tangerine"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCinematic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinematic"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_design2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnVintage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vintage"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDarkBrown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Brown"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMetallic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metallic"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_design2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMatte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matte"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Film"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPeach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peach"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_design2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCharcoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charcoal"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_design3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
